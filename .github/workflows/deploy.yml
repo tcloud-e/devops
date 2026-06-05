@@ -5,8 +5,8 @@ name: Direct Deploy to Amazon EC2
 on:
   # コードが GitHub に「push（プッシュ）」されたときを指定しています
   push:
-    # 対象となるブランチを「main」ブランチに限定しています
-    branches: [ "main" ]
+    # 対象となるブランチを「master」ブランチに限定しています
+    branches: [ "master" ]
 
 # 具体的に実行する作業（ジョブ）の塊をここに定義します
 jobs:
